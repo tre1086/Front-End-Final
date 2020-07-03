@@ -1,0 +1,4 @@
+@media screen and (min-width: 9px) {
+  #leftsidebar {width: 9px; float: left;}
+  #main {margin-left: 9px;}
+}

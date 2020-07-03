@@ -1,0 +1,269 @@
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+body {background-color:#35424a;
+		color:#666666;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #35424a;
+	}
+	
+#wrapper {width: 80%;
+	margin: auto;
+	background-color: #90C7E3;	
+	min-width: 960px;
+	max-width:2048px;
+	box-shadow:3px 3px 3px #333333;
+	border: 1px #000033;
+	background-image: linear-gradient(#90C7E3,#90C7E3);
+    
+	}
+	
+#cherryblossom{height:300px; /*Picture of cherry blossom*/
+	background-image:url(images/cherryblossom.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-left: 190px;
+	}
+	
+#temple{height:300px; /*This is a picture of a temple in Cambodia*/
+	background-image:url(images/temple.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-left: 190px;
+	}
+	
+#lillypad{height:300px; /*Picture of lillypad*/
+			background-image:url(images/lillypad.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			margin-left: 190px;
+			}
+			
+#mountain{height:300px; /*Picture of mountain*/
+			background-image:url(images/mountain.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			margin-left: 190px;
+			}
+			
+#castle{height:300px; /*Picture of castle*/
+	background-image:url(images/castle.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin-left: 190px;
+	}			
+	
+header {background-color:#35424a;
+			color:#FFFFFF;
+			height:120px;
+			padding-top:30px;
+			padding-left:3em;
+			text-align:center;
+			}
+nav{ font-weight: bold;
+		padding:1.5em;
+		font-size:1.2em;
+		float: left;
+		width:160px;
+		}
+		
+		
+nav ul	{list-style-type: none;
+				margin:0px;
+				padding-left:0px;
+				font-size: 1.2em;	
+				
+}
+
+nav a { text-decoration: none;
+	}
+
+nav a:link { color: #5C7FA3;
+
+	}
+		
+	nav a:visited { color: #344873;
+	}
+	
+	nav a:hover { color: #A52A2A;
+	transition: color 3s ease-out; /*CSS3 Style that makes nav area text change color when mouse hovers over*/
+	}
+		
+h1 {margin-bottom:0;
+	margin-top:0px;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size:3em;
+	letter-spacing:0.25em;
+	
+	}
+
+h2 {color:#3399CC;
+	text-shadow: 1px 1px 1px #CCCCCC;
+	font-family: Georgia, 'Times New Roman', serif;
+		}
+		
+h3 {font-family: Georgia, 'Times New Roman', serif;
+color: #000033;
+}
+main {padding-top:1px;
+		padding-right:1.25em;
+		padding-bottom:1.25em;
+		padding-left:1.9em;
+		display:block;
+		background:#FFFFFF;
+		margin-left:190px;	
+	
+	}	
+dt{color:#000033;
+		}
+main ul {list-style-image: url(marker.gif);
+	}
+footer {font-size: 0.75em;
+		padding:1.25em;
+		font-style: italic;
+		font-family: Georgia, 'Times New Roman', serif;
+		text-align: center;
+		margin-left:190px;
+		background:#e8491d;
+		float: none;
+		color:#FFFFFF;
+		}	
+	
+#contact {font-size: 0.90em;
+}
+
+* { box-sizing: border-box;
+	}
+
+#mobile {display: none;
+	}
+
+#desktop { display: inline;
+	}
+
+@media only screen and (max-width: 64em) {
+	
+	body { 
+margin: 0;
+background-color: #FFFFFF;
+	}
+
+#wrapper{
+width: auto;
+min-width: 0;
+box-shadow:none;
+border:none;
+	}
+
+header {padding-top:0.5em;
+		padding-bottom:0.5em;
+		padding-left:0;
+height: auto;}
+
+h1 {letter-spacing: 0.1em;
+	}
+
+main {margin-left: 0;
+	}
+
+nav {float:none;
+	width: auto;
+	text-align: center;
+	padding: 0.5em;
+}
+
+nav li {display:inline;
+padding: 0.25em 0.75em 0.25em 0.75em;
+}
+
+#temple 
+{margin-left: 0;										
+height: 200px;								
+	}
+			
+#lillypad
+{margin-left: 0;										
+height: 200px;									
+	}
+
+#castle 
+{margin-left: 0;										
+height: 200px;
+	}	
+
+#mountain 
+{margin-left: 0;										
+height: 200px;
+	}
+
+#cherryblossom
+{margin-left: 0;										
+height: 200px;									
+	}
+			
+footer			
+{margin-left: 0;}
+	}	
+
+	#gallery {height: 200px;
+	}
+
+@media only screen and (max-width: 37.5em) {
+
+main 
+{padding-top: 0.1em;									
+padding-bottom: 0.1em;							
+padding-left: 1em;								
+padding-right: 1em;
+font-size: 0.90em;
+	}
+
+
+h1 { font-size: 2em;
+	}
+	
+
+nav {padding: 0;}
+
+nav li{display:block; 
+		margin:0; 
+		border-bottom:2px solid #330000;
+		}
+
+nav a 			
+{display:block;													
+	}
+		
+#temple 
+{background-image: none;								
+height: 0;										
+		}
+
+#cherryblossom
+{background-image: none;								
+height: 0;										 
+}
+
+#lillypad 		
+{background-image: none;								
+height: 0;
+}	
+
+#mountain		
+{background-image: none;								
+height: 0;
+}
+
+#castle	
+{background-image: none;								
+height: 0;
+}		
+
+#mobile{display:inline
+	}
+
+#desktop{display: none;
+	}	
+			}	
+
+
+		
